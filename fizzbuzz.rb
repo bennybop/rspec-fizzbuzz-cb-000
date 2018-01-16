@@ -1,5 +1,5 @@
 def fizzbuzz(n)
-  if n % 3 && n % 5 == 0
+  if n % 3 || n % 5 == 0
      "FizzBuzz"
   elsif n % 3 == 0
     "Fizz"
@@ -9,6 +9,3 @@ def fizzbuzz(n)
     nil
   end
 end
-
-
-
