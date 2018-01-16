@@ -1,19 +1,11 @@
-def fizzbuzz(int)
-if int % 3 == 0 && int % 5 == 0
-  puts "FizzBuzz"
-   "FizzBuzz"
-
-elsif int % 3 == 0
-  print  "Fizz"
-   "Fizz"
-
-
- elsif int % 5 == 0
-     print "Buzz"
-      "Buzz"
-
-
-
-
-end
-end
+def fizzbuzz(number)
+  if number % 3 == 0 
+    puts "Fizz"
+  elsif number % 5 == 0
+    puts "Buzz"
+  elsif number % 3 || 5 == 0
+    puts "FizzBuzz"
+  else 
+    nil 
+  end 
+end 
